@@ -1,0 +1,5 @@
+project:
+  type: minimal
+
+website:
+  title: "My Website"
