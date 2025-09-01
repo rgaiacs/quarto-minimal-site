@@ -6,6 +6,8 @@ contributes:
   project:
     project:
       type: website
+      resources: 
+        - "static/**/*"
 
     format: minimal-html
 
@@ -13,3 +15,5 @@ contributes:
     html:
       minimal: true
       template: template.html
+      filters:
+        - filter/dependencies.lua
